@@ -1,0 +1,226 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+  }
+
+  .bd-mode-toggle {
+    z-index: 1500;
+  }
+
+  .bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+  }
+
+  footer p,
+  footer a {
+    color: white;
+  }
+
+  .card  {
+    display: flex;
+  }
+  .card .name {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.5);
+    flex-direction: column;
+
+ 
+  }
+
+  .card ul,
+  .card div {
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    flex-direction: row;
+  }
+
+  .card ul li {
+    border: 1px solid white;
+    padding: 0px 5px;
+    margin: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .nameClick {
+   /* border: 1px solid red;*/
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: absolute;
+    cursor: pointer;
+}
+
+#filtro {
+  width: 100%;
+}
+
+#artistas .contenido {
+  width: 66%;
+  /* border: 1px solid red; */
+}
+
+.contenido ul {
+  /* border: 1px solid red; */
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+ 
+}
+
+.contenido ul li {
+  word-wrap: normal;
+  width: max-content;
+  padding: 2px 6px;
+  margin-right: 4px;
+  background: whitesmoke;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.contenido ul.discos {
+  margin-top: 100px;
+}
+
+.contenido h2 {
+  margin-top: 20px;
+}
+
+.contenido .discos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenido .discos .disco {
+  width: 33%;
+  padding: 4px;
+}
+
+.contenido .discos .disco img {
+  width: 100%;
+}
+
+.contenido .discos h3 {
+  font-size: 14px;
+  min-height: 50px;
+  padding: 10px 0;
+}
+
+#genero {
+  flex-wrap: wrap 
+}
+
+#genero span {
+  display: block;
+  cursor: pointer;
+}
+
+#genero p {
+  /* display: contents; */
+  /* border: 1px solid red;*/
+  width: fit-content;
+  margin: 0 0 8px 0;
+  font-size: 14px;
+}
+
+/*
+#genero p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+*/
+
+
+
+
+
+  
